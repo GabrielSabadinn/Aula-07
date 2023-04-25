@@ -1,7 +1,7 @@
 const { connect } = require("http2");
 var mysql = require("mysql");
 
-var con = mysql.createConnection({
+var conn = mysql.createConnection({
     host: "localhost" ,
     user: "root" ,
     password: "" ,
